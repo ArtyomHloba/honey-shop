@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пасіка "Золотий мед" - Натуральний український мед</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>🍯 Пасіка "Золотий мед"</h2>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Головна</a></li>
+          <li><a href="#products" class="nav-link">Продукція</a></li>
+          <li><a href="#reviews" class="nav-link">Відгуки</a></li>
+          <li><a href="#order" class="nav-link">Замовити</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>🍯 Натуральний український мед</h1>
+          <p class="hero-subtitle">
+            Прямо з пасіки до вашого столу. Без домішок, без хімії - тільки
+            природна корисність і неперевершений смак справжнього меду.
+          </p>
+          <div class="hero-features">
+            <div class="feature">
+              <span class="feature-icon">🌻</span>
+              <span>100% натуральний</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">🏔️</span>
+              <span>Екологічно чисті регіони</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">🎯</span>
+              <span>Пряма доставка</span>
+            </div>
+          </div>
+          <a href="#order" class="cta-button">Замовити мед зараз</a>
+        </div>
+        <div class="hero-image">
+          <img src="./img/honey.png" alt="Натуральний мед" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>Чому обирають наш мед?</h2>
+        <div class="about-grid">
+          <div class="about-item">
+            <span class="about-icon">🐝</span>
+            <h3>Власна пасіка</h3>
+            <p>
+              Понад 15 років досвіду в бджільництві. Ми знаємо кожну бджолину
+              сім'ю особисто.
+            </p>
+          </div>
+          <div class="about-item">
+            <span class="about-icon">🌿</span>
+            <h3>Екологічність</h3>
+            <p>
+              Наші вулики розташовані в екологічно чистих районах, далеко від
+              промисловості.
+            </p>
+          </div>
+          <div class="about-item">
+            <span class="about-icon">🏆</span>
+            <h3>Якість</h3>
+            <p>
+              Кожна партія меду проходить лабораторні дослідження та має
+              сертифікати якості.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h2>Наша продукція</h2>
+        <p class="section-subtitle">
+          Різноманітні сорти меду для будь-якого смаку та потреби
+        </p>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Липовий мед"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Липовий мед</h3>
+              <p>
+                М'який, ніжний смак з легким квітковим ароматом. Ідеальний для
+                чаю та лікування застуди.
+              </p>
+              <div class="product-price">від 250 ₴/л</div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Акацієвий мед"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Акацієвий мед</h3>
+              <p>
+                Прозорий, ніжний мед, який довго не кристалізується.
+                Гіпоалергенний, підходить дітям.
+              </p>
+              <div class="product-price">від 300 ₴/л</div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Гречаний мед"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Гречаний мед</h3>
+              <p>
+                Темний мед з багатим смаком та високим вмістом заліза. Корисний
+                для серця та судин.
+              </p>
+              <div class="product-price">від 280 ₴/л</div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Соняшниковий мед"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Соняшниковий мед</h3>
+              <p>
+                Золотистий мед з насиченим смаком. Швидко кристалізується,
+                багатий на вітаміни.
+              </p>
+              <div class="product-price">від 220 ₴/л</div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Різнотрав'я"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Різнотрав'я</h3>
+              <p>
+                Мед з лугових квітів - унікальний букет смаків і ароматів.
+                Загальнозміцнювальна дія.
+              </p>
+              <div class="product-price">від 260 ₴/л</div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img
+                src="./img/honey.png"
+                alt="Мед з прополісом"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <h3>Мед з прополісом</h3>
+              <p>
+                Лікувальний мед, збагачений прополісом. Підвищує імунітет, має
+                антибактеріальні властивості.
+              </p>
+              <div class="product-price">від 400 ₴/л</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2>Відгуки наших клієнтів</h2>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <img
+                  src="./img/User_Icon.png"
+                  alt="Марія К."
+                  class="avatar-img"
+                />
+              </div>
+              <div class="review-info">
+                <h4>Марія К.</h4>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Замовляю мед вже третій рік поспіль. Якість завжди на висоті!
+              Липовий мед особливо смачний, діти п'ють чай тільки з ним."
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <img
+                  src="./img/User_Icon.png"
+                  alt="Олександр П."
+                  class="avatar-img"
+                />
+              </div>
+              <div class="review-info">
+                <h4>Олександр П.</h4>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Справжній мед! Відчувається, що натуральний. Доставка швидка,
+              упаковка надійна. Рекомендую всім!"
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <img
+                  src="./img/User_Icon.png"
+                  alt="Тетяна Л."
+                  class="avatar-img"
+                />
+              </div>
+              <div class="review-info">
+                <h4>Тетяна Л.</h4>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Мед з прополісом допоміг швидко подолати застуду. Тепер завжди
+              тримаю його в домашній аптечці."
+            </p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="review-avatar">
+                <img
+                  src="./img/User_Icon.png"
+                  alt="Ігор С."
+                  class="avatar-img"
+                />
+              </div>
+              <div class="review-info">
+                <h4>Ігор С.</h4>
+                <div class="review-rating">⭐⭐⭐⭐⭐</div>
+              </div>
+            </div>
+            <p class="review-text">
+              "Замовляв акацієвий мед для дитини-алергіка. Ніяких проблем не
+              було, мед чудовий!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="order-section">
+      <div class="container">
+        <div class="form-wrapper">
+          <h2>🍯 Замовити натуральний мед</h2>
+          <p class="subtitle">
+            Залиште свої контакти і ми зв'яжемося з вами для уточнення деталей
+            замовлення
+          </p>
+
+          <form id="orderForm" class="order-form">
+            <div class="form-group">
+              <label for="firstName">Ім'я *</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="lastName">Прізвище *</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Телефон *</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+380 (99) 123-45-67"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email (не обов'язково)</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@mail.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="comment">Що бажаєте замовити?</label>
+              <textarea
+                id="comment"
+                name="comment"
+                rows="4"
+                placeholder="Вкажіть бажаний вид меду, кількість та інші побажання..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span class="btn-text">Відправити заявку</span>
+              <span class="spinner" style="display: none">⏳</span>
+            </button>
+          </form>
+
+          <div id="message" class="message" style="display: none"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>🍯 Пасіка "Золотий мед"</h3>
+            <p>Натуральний український мед прямо з пасіки</p>
+          </div>
+          <div class="footer-section">
+            <h4>Контакти</h4>
+            <p>📞 +380 (XX) XXX-XX-XX</p>
+            <p>📧 info@example.com</p>
+            <p>📍 Україна</p>
+          </div>
+          <div class="footer-section">
+            <h4>Соціальні мережі</h4>
+            <div class="social-links">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Telegram</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Пасіка "Золотий мед". Всі права захищені.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
